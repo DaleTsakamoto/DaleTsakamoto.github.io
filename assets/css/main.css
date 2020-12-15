@@ -285,7 +285,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .section-padding {
-  padding: 60px 0;
+  padding: 60px 0px;
 }
 
 #about .img-thumb img {
@@ -910,12 +910,15 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 /* skills Item */
 .skills {
   background: #F0F0F0;
+  margin: 0 auto;
 }
 
 .skills-item {
   background: #fff;
+  height: 280px;
+  width: 280px;
   border-radius: 4px;
-  padding: 48px 20px;
+  padding: 48px 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   text-align: center;
   transition: all 0.3s ease-in-out 0s;
@@ -928,11 +931,16 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   font-size: 42px;
   margin-bottom: 15px;
   text-align: center;
-  width: 48px;
+  width: 12px;
   display: block;
   margin: 0 auto;
-  height: 48px;
-  color: #00c2bf;
+  height: 12px;
+}
+
+.coding-icons{
+  height: 56px;
+  width: 58px;
+  padding: 0 5px;
 }
 
 .skills-item .skills-content h3 {
@@ -956,6 +964,10 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 
 .skills-item:hover {
   box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+}
+
+.skills-icons{
+  margin: 0 15px;
 }
 
 .form-control {
