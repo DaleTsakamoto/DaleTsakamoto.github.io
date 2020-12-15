@@ -92,7 +92,7 @@ ul li, ol li {
 }
 
 .section-title-header p {
-  text: center;
+  : center;
   font-weight: 400;
   line-height: 26px;
   padding-bottom: 36px;
@@ -138,9 +138,15 @@ ul li, ol li {
   z-index: 1;
 }
 
+.btn-danger{
+  background-color: transparent;
+  color: #00c2bf;
+  border: .5px solid #00c2bf;
+}
+
 .btn-common:hover {
-  color: #fff;
-  background-color: #21cff3;
+  color: white;
+  background-color: #059997;
   box-shadow: 0 6px 22px rgba(0, 0, 0, 0.1);
   transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
@@ -148,8 +154,8 @@ ul li, ol li {
 }
 
 .btn-danger:hover {
-  background-color: #f55262;
-  border-color: #f55262;
+  background-color: #00c2bf;
+  border: .5px solid #00c2bf;
   box-shadow: 0 6px 22px rgba(0, 0, 0, 0.1);
   transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
@@ -915,7 +921,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 
 .skills-item {
   background: #fff;
-  height: 280px;
+  height: 240px;
   width: 280px;
   border-radius: 4px;
   padding: 48px 10px;
@@ -938,7 +944,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 }
 
 .coding-icons{
-  height: 56px;
+  height: 52px;
   width: 58px;
   padding: 0 5px;
 }
@@ -948,7 +954,8 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   margin-bottom: 10px;
 }
 
-.skills-item .skills-content h3 a {
+.skills-item .skills-content h3 div {
+  padding-top: 25px;
   font-size: 18px;
   text-transform: uppercase;
   color: #666;
