@@ -1175,3 +1175,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   font-family: 'Indie Flower', cursive;
   font-size: 16px;
 }
+
+.row{
+  width: 1250px;
+}
